@@ -24,8 +24,6 @@ public abstract class Duck
     {
         QuackBehaviour.Quack();
     }
-
-
     public void Swim()
     {
         Console.WriteLine("The duck swims around.");
