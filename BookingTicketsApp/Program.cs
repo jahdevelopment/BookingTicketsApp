@@ -7,7 +7,6 @@ using System;
 try
 {
     LoyaltyBooking loyalty = new LoyaltyBooking(5);
-
     MonthlyBooking monthly = new MonthlyBooking(12);
 
     Console.WriteLine(loyalty.HandleBooking(200));
@@ -34,13 +33,13 @@ abstract class BookingSystem
 
     // METHODS
     // invocation of interface's method
-    public decimal GetPrice(decimal initialPRice)
+    public decimal GetPrice(decimal initialPrice)
     {
         if (_priceBehaviour == null)
         {
             throw new InvalidOperationException("No price method set for booking.");
         }
-        return _priceBehaviour.GetPrice(initialPRice);
+        return _priceBehaviour.GetPrice(initialPrice);
     }
 
     protected void SetPriceBehaviour(BookingPriceBehaviour priceBehaviour)
@@ -56,6 +55,7 @@ abstract class BookingSystem
         return GetPrice(price);
     }
 }
+
 
 class LoyaltyBooking : BookingSystem
 {
