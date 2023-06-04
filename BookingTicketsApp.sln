@@ -5,9 +5,11 @@ VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingTicketsApp", "BookingTicketsApp\BookingTicketsApp.csproj", "{4AE02740-BE1C-43CA-ABE4-1D07C4980F4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DucksExercise", "DucksExercise\DucksExercise.csproj", "{230B3094-6039-4DC3-BEAC-8D23CEB7FA89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DucksExercise", "DucksExercise\DucksExercise.csproj", "{230B3094-6039-4DC3-BEAC-8D23CEB7FA89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsExcercise", "CarsExcercise\CarsExcercise.csproj", "{13A087F4-7B72-473B-A933-BCE3CF21E1FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarsExcercise", "CarsExcercise\CarsExcercise.csproj", "{13A087F4-7B72-473B-A933-BCE3CF21E1FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clients", "Clients\Clients.csproj", "{738C1BA0-8B9C-4E2C-92F1-0916121024F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{13A087F4-7B72-473B-A933-BCE3CF21E1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13A087F4-7B72-473B-A933-BCE3CF21E1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13A087F4-7B72-473B-A933-BCE3CF21E1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{738C1BA0-8B9C-4E2C-92F1-0916121024F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{738C1BA0-8B9C-4E2C-92F1-0916121024F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{738C1BA0-8B9C-4E2C-92F1-0916121024F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{738C1BA0-8B9C-4E2C-92F1-0916121024F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

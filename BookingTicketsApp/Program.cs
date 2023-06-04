@@ -1,6 +1,4 @@
-﻿
-
-using System;
+﻿using System;
 
 //Added child classes for different means of handling booking
 
@@ -73,6 +71,7 @@ class LoyaltyBooking : BookingSystem
     protected override void SelectBookingPrice()
     {
         BookingPriceBehaviour newPriceBehaviour;
+        
         if(_currentLoyalty <= 0)
         {
             newPriceBehaviour = new BookingDoublePrice();
